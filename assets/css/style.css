@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+header {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
+section {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.image {
+    background-image: url(/assets/image/jungle-background-forest-nature-scene-futuristic-generative-ai\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.head {
+    background: linear-gradient(180deg, #000000 36.19%, rgba(0, 0, 0, 0) 100%);
+}
+
+.flex-direction-space-between {
+    flex-direction: space-between;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-item-center{
+    align-items: center;
+    display: flex;
+}
+ul {
+    display: flex;
+    align-items: center;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+.port {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #BDBEBE;
+}
+
+button {
+    width: 144px;
+    height: 51px;
+    border-radius: 36px;
+    background-color: rgba(255, 194, 10, 1);
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.17px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+
+}
+
+.button:hover {}
+
+.port {
+    padding: 20px;
+}
+
+img {
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.logo {
+    margin-right: 30px;
+    margin-left: 100px;
+}
+
+.nav-bar {
+    align-items: center;
+    justify-content: center;
+}
+
+
+.chimpz {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76.8px;
+    text-align: left;
+    font-family: "Exo 2", sans-serif;
+    color: rgba(59, 148, 94, 1);
+    width: 604px;
+    height: 231px;
+}
+.justify-content-center{
+    justify-content: center;
+}
+
+.green {
+    font-family: "Exo 2", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76.8px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.drip {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.flex {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    width: 631px;
+    height: 48px;
+
+}
